@@ -1,0 +1,49 @@
+.fixedImg {
+  width: 100%;
+  height: auto;
+
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+  background: url("../imgs/img6.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+font-family: 'Almarai', sans-serif;
+
+}
+.fixedImg h1{
+  margin-bottom: 100px;
+
+}
+.fixedImg button {
+  width: 270px;
+  margin: 70px;
+  background-color: transparent;
+  border-radius: 3px;
+  border: 2px solid #f4bc13;
+  color: #f4bc13;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.fixedImg p{
+  margin-left: 25%;
+  font-size: 32px;
+  margin-bottom: 100px;
+  width: 50%;
+  word-break: normal;
+}
+.fixedImg button:hover {
+  border-color: orange;
+}
+@media screen and (max-width: 1000px) {
+  .fixedImg button  {
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}

@@ -1,0 +1,118 @@
+.slidContainer {
+  width: 100%;
+  height: 400px;
+  padding-left: 10%;
+  margin: 0px;
+  padding: 40px 0 20px 0;
+  display: block;
+  background-color: lightgray;
+position: relative;
+font-family: 'Almarai', sans-serif;
+
+}
+.slid1 {
+  width: 40%;
+  height: 80%;
+  margin: 0 0 0 0;
+  padding: 0px;
+  display: inline-block;
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  background-color: white;
+  border-radius: 13px;
+   box-shadow: 1px -1px gray;
+}
+.slid1 img {
+  width: 95%;
+  height: 95%;
+  margin: 1.5% 0 0 2.5%;
+  border-radius: 7px;
+}
+.text {
+  width: 20%;
+  height: 260px;
+  word-break: normal;
+  display: inline-block;
+  background: linear-gradient(to right, lightgray 50% , white 0%);
+  margin: 0;
+  position: absolute;
+  top: 70px;
+  right: 70px;
+  padding: 50px;
+  border-radius: 13px;
+  box-shadow: 1px 0px gray;
+  font-family: 'Almarai', sans-serif;
+}
+.text p {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 16px;
+}
+.nxt {
+  top: 30%;
+  left: 50%;
+}
+.prv {
+  top: 60%;
+  left: 50%;
+}
+.slidContainer button {
+  position: absolute;
+  width: 10%;
+  font-size: 24px;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 3px;
+}
+.slidContainer button:hover {
+  border-color: orange;
+  color: orange;
+}
+.slidContainer1 {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .slidContainer {
+    display: none;
+  }
+  .slidContainer1 {
+    display: block;
+    width: calc(100%-100px);
+    background-color: lightgray;
+    padding: 0 0 0 0;
+    position: relative;
+  }
+  .slid12 {
+    position: relative;
+width: 100%;
+height: 200px;
+  }
+   .slid12 img {
+     width: 100%;
+     height: 200px;
+   }
+   .slid12 button {
+     background: transparent;
+     border: 2px solid orange;
+     padding: 7px;
+     color: orange;
+     border-radius: 3px;
+     font-size: 18px;
+   }
+   .nxt1{
+     position: absolute;
+     top: 50%;
+     right: 0px;
+   }
+   .prv1{
+     position: absolute;
+     top: 50%;
+     left: 0px;
+   }
+   .slidContainer1 p {
+     width: 80%;
+     word-break: normal;
+     padding: 10px;
+     font-family: 'Tajawal', sans-serif;
+   }
+}

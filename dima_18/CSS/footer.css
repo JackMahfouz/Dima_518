@@ -1,0 +1,75 @@
+.footer {
+  height: 250px;
+  width: 100%;
+  background-color: black;
+  padding: 50px 0;
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* background: linear-gradient(145deg, blue 10%, cyan 60%); */
+}
+.footer div {
+  color: white;
+  margin: 20px;
+  width: 200px;
+}
+.footer span{
+  color: orange;
+  margin-right: 10px;
+  font-size: 24px;
+}
+.footer div:hover span {
+  color: lightblue;
+
+}
+.form {
+  width: 50%;
+
+  margin-left:20px;
+  position: absolute;
+  top: 50px;
+  right: 30px;
+}
+.serc {
+  width: 80%;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid orange;
+}
+.form button {
+  background-color: transparent;
+  padding: 10px;
+  border: 2px solid orange;
+}
+.form button:hover {
+  color: orange;
+}
+.cpy {
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  margin-bottom:-10px;
+}
+
+@media screen and (max-width: 1000px)  {
+  .form {
+    top: 250px;
+    left: 0%;
+    margin-left: 5px;
+    margin-top: 20px;
+
+    width: 80%
+  }
+.form button {
+  top: 0px;
+  position: absolute;
+  border-left: 0px;
+  color: orange;
+
+}
+.footer .span {
+  color: lightblue;
+  font-size: 24px;
+}
+}

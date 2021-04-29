@@ -1,0 +1,21 @@
+.contactUs {
+  height: 200px;
+  width: calc(100%-100px);
+
+  color: white;
+    background: linear-gradient(145deg, #28779d 10%, #109797 60%);
+  padding: 50px 0;
+  text-align: center;
+  cursor: pointer;
+  word-break: normal;
+  font-family: 'Tajawal', sans-serif;
+}
+.contactUs p {
+  margin:20px 0;
+  word-break: normal;
+}
+.contactUs span {
+  margin: 10px;
+  color: darkorange;
+  word-break: normal;
+}
